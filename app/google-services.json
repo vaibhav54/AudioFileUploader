@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "785788125745",
+    "firebase_url": "https://audiofileuploader.firebaseio.com",
+    "project_id": "audiofileuploader",
+    "storage_bucket": "audiofileuploader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785788125745:android:4e2168602479f3c7b94b10",
+        "android_client_info": {
+          "package_name": "com.example.audiofileuploader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785788125745-s6tvucemljh5ku8kndvhkgutemh34tfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRkWD6kFRb7lm_wtdtWiXYbSa2FCtyqmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785788125745-s6tvucemljh5ku8kndvhkgutemh34tfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

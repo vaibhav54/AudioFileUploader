@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:alpha="0.8">
+
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="82dp"
+        android:src="@drawable/file" />
+
+    <Button
+        android:id="@+id/btn_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/rect_btn"
+        android:text="SELECT THE FILE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_progress"
+        android:layout_width="277dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="267dp"
+        android:text="No selected file..." />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="397dp"
+        android:background="@drawable/rect2_btn"
+        android:text="Upload "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="463dp"
+        android:background="@drawable/rect2_btn"
+        android:text="DOWNLOAD"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

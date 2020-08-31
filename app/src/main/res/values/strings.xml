@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AudioFileUploader</string>
+    <string name="select">chooser_title</string>
+</resources>
